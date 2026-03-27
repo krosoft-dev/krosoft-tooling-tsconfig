@@ -1,0 +1,17 @@
+{
+  "name": "@krosoft/tooling-tsconfig",
+  "version": "0.0.1",
+  "description": "Shared TypeScript configurations — base and node",
+  "type": "module",
+  "exports": {
+    "./base": "./tsconfig.base.json",
+    "./node": "./tsconfig.node.json"
+  },
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.node.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
