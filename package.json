@@ -4,7 +4,7 @@
   "description": "Krosoft TypeScript shared base config",
   "type": "module",
   "peerDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "exports": {
     "./base": "./tsconfig.base.json",
